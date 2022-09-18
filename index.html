@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+    <header>
+        
+        
+        <nav>
+            <ul>
+                <li><a href="#SobreMim">Sobre Mim</a></li>
+                <li><a href="#hobbies">Hobbies e Interesses</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+    <main>
+            <section>
+                
+                <div class="container" id="SobreMim">
+                    <div class="card">
+                        <h1>Olá, eu sou o Tássio!</h1>
+                    </div>
+                    <!--Texto sobre mim-->>
+                    <div class="card">
+                        <img src="./img/Perfil.jpeg" alt="">
+                        <p>Nascido em 1994, no bairro de Marechal Hermes, e criado na região de Madureira – Zona Norte do Rio de Janeiro – sou carioca da gema, com raízes no Nordeste brasileiro e em tribo indígena das Minas Gerais.</p>
+                        <p>Um pai cristão, encarregado de loja; uma mãe umbandista, iyálorìṣa, pensionista; somos 4 herdeiros, sendo eu o segundo.</p>
+                        <p>Casado com uma servidora federal, passista, modelo e influencer digital, divido a casa ainda com duas enteadas adolescentes, 5 gatos, 1 tartaruga e 1 cachorra que resolveu ter 3 filhotes "do nada" recentemente (ninguém fazia ideia de que ela estava prenhe, pasme).</p>
+                        <!--No parágrafo abaixo contém três links externos que levam aos sites oficiais das instituições citadas-->
+                        <p>Atualmente, estudante de Programação pelo projeto "Programadores Cariocas" da <a href="https://prefeitura.rio" target="_blank">Prefeitura do Rio</a> em parceria com o <a href="http://www.senac.br/" target="_blank">SENAC</a> e com o <a href="https://www.resilia.com.br/" target="_blank">Resilia</a>, estou em transição de carreira, focando efetivamente na Tecnologia da Informação, após experiências administrativas e operacionais.</p>
+                    </div>
+                </div>           
+                <div class="container" id="hobbies">
+                    <div class="card">
+                        <h2>Hobbies e Interesses</h2>
+                    </div>
+                        <!--Texto sobre meus hobbis e meus interesses-->
+                        <div class="card">
+                            <p>Flamenguista, taurino, macumbeiro, cervejeiro e viciado em café, já dá pra saber quais são meus hobbies e interesses, né?</p>
+                            <p>Ativista social, eu luto pelos Direitos LGBTQIA+, diversidade e inclusão, defesa dos animais e do meio ambiente, e contra o racismo e o racismo religioso, além de movimentar-me a favor da independência e igualdade das mulheres.</p>
+                            <p>Apoio ONGs e tenho dois projetos em desenvolvimento, sendo um para resgate e cuidado de animais em situação de rua e outro para levar educação e cultura afro as crianças de comunidades carentes, a fim de resistir e reexistir as memórias ancestrais dos negros escravizados que construíram o nosso país.</p>
+                        </div>
+                </div>
+                <div class="container" id="contato">
+                    <!--Formulário abaixo-->
+                    <h2>Entre em contato</h2>
+                    <form 
+                    action="https://formsubmit.co/tassiofelipeers@gmail.com" method="POST">
+                        <label for="nome">Nome</label>
+                        <input type="text" id="nome" required>
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" required>
+                        <input type="hidden" name="_captcha" value="false">
+                        <label for="msg">Mensagem</label>
+                        <textarea name="msg" id="msg" cols="30" rows="10"></textarea>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+            </section>
+    </main>
+    <footer>
+            <div class="container-social">
+                <ul>
+                    <li><a href="https://linkedin.com/in/tassiorodrigues" class="redes" target="_blank"><img src="./img/icon _linkedin_.png" alt=""></a></li>
+                    <li><a href="https://facebook.com/tassiorodriguesrj" class="redes" target="_blank"><img src="./img/icon _facebook_.png" alt=""></a></li>
+                    <li><a href="https://instagram.com/tassiorodriguesrj" class="redes" target="_blank"><img src="./img/icon _instagram_.png" alt=""></a></li>
+                    <li><a href="https://twitter.com/tassiofeliperj" class="redes" target="_blank"><img src="./img/icon _twitter_.png" alt=""></a></li>
+                    <li><a href="mailto:tassiofelipeers@gmail.com" class="email" target="_blank"><img src="./img/icon _gmail_.png" alt=""></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
